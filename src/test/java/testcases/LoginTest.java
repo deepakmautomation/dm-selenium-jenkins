@@ -19,6 +19,8 @@ public class LoginTest {
 		ChromeOptions ops = new ChromeOptions();
 
 		ops.addArguments("--headless");
+		ops.addArguments("--no-sandbox");
+		ops.addArguments("--disable-dev-shm-usage");
 
 		driver = new ChromeDriver(ops);
 
