@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 
 
 	@Test
