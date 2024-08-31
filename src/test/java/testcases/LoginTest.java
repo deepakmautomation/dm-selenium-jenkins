@@ -15,7 +15,7 @@ public class LoginTest {
 	@Test
 	public void login_test() throws InterruptedException{
 		
-		System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		
 		ChromeOptions ops = new ChromeOptions();
 		
